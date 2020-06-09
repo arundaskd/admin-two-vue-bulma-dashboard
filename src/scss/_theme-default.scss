@@ -22,6 +22,9 @@ $body-background-color: $base-color-light;
 /* Navbar: Bulma override */
 $navbar-dropdown-radius: $radius-small;
 
+/* Navbar: specifics */
+$navbar-avatar-size: 1.75rem;
+
 /* Icon: specifics */
 $icon-update-mark-size: $size-base * .5;
 $icon-update-mark-color: $yellow;
@@ -57,6 +60,9 @@ $table-cell-border: 1px solid $white-bis;
 /* Table: specifics */
 $table-avatar-size: 1.5rem;
 $table-avatar-size-mobile: 25vw;
+
+/* Form */
+$checkbox-border: 1px solid rgba($base-color, 0.5);
 
 /* Modal card */
 $modal-card-width: 40vw;

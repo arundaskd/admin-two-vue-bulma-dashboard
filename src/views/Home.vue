@@ -24,7 +24,7 @@
     </card-component>
 
     <card-component title="Clients" class="has-table">
-      <clients-table-sample data-url="/data-sources/clients.json"/>
+      <clients-table-sample :data-url="`${$router.options.base}data-sources/clients.json`" :checkable="true"/>
     </card-component>
 
   </section>
@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     randomChartData (n) {
-      let data = []
+      const data = []
 
       for (let i = 0; i < n; i++) {
         data.push(Math.round(Math.random() * 200))
